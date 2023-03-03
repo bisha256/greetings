@@ -7,5 +7,12 @@
 </template>
 
 <script setup>
+import { onMounted } from "vue";
 import ConfettiExplosion from "vue-confetti-explosion";
+
+const audio = new Audio("/sound/children_yay_sound_effect.mp3");
+
+onMounted(async () => {
+  await audio.play();
+});
 </script>
