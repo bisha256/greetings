@@ -13,7 +13,13 @@ import ConfettiExplosion from "vue-confetti-explosion";
 
 const audio = new Audio("/sound/children_yay_sound_effect.mp3");
 const confetti = ref(false);
-const messages = ["可愛すぎる", "おはよう", "一緒に働くことを楽しんでいます"];
+const messages = [
+  "可愛すぎる",
+  "おはよう",
+  "一緒に働くことを楽しんでいます",
+  "朝のほんの少しの前向きな考えは、あなたの一日を変えることができます",
+  "朝からお話できて楽しかったです",
+];
 
 const displayMessage = ref("");
 
