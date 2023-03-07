@@ -36,11 +36,25 @@ const onClick = () => {
   background-color: #ffc0cb;
   color: white;
   font-size: 1.25rem;
+  animation-name: shifting-bg;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .paragraph {
   font-weight: 600;
   font-size: 3rem;
   color: #ffc0cb;
+}
+
+@keyframes shifting-bg {
+  from {
+    background-color: #ffc0cb;
+  }
+
+  to {
+    background-color: dodgerblue;
+    transform: scale(1.2);
+  }
 }
 </style>
