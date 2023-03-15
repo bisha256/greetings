@@ -5,6 +5,10 @@
   font-weight: 500;
 }
 
+body {
+  background-color: #ffc0cb;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
